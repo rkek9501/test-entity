@@ -1,0 +1,18 @@
+{
+  "name": "mondi-test-entity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typeorm": "^0.3.12"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
